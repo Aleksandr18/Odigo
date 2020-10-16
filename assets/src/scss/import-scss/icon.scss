@@ -1,0 +1,61 @@
+
+.arrow::after {
+  content: '';
+  position: absolute;
+  width: 33px;
+  height: 8px;
+  background-image: url("../img/arrow.svg");
+  background-repeat: no-repeat;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.line::after {
+  content: '';
+  border-bottom: 2px solid #006DFE;
+  margin-top: 7px;
+  width: 253px;
+  height: 3px;
+  display: flex;
+
+  @media (max-width: 1187px) {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.like::after {
+  content: "";
+  background-image: url("../img/like.svg");
+  margin-left: 4px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding: 0 12px;
+}
+
+.comm::after {
+  content: "";
+  background-image: url("../img/comment.svg");
+  margin-left: 9px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding: 0 7px;
+}
+
+.play::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/play.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+
+  @media (max-width: 760px) {
+    background-size: 60px;
+  }
+}
+
+
+

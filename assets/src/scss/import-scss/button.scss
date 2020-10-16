@@ -1,0 +1,36 @@
+.btnSub {
+  font-size: 16px;
+  color: #fff;
+  background-color: #1B7DFF;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  max-width: 118px;
+  width: 100%;
+}
+
+.btnSearch {
+  max-width: 171px;
+  padding: 11px 39px;
+  font-size: 24px;
+
+  @media (max-width: 960px) {
+    margin: 0 auto;
+  }
+}
+
+.visitCardBtn {
+  padding: 9px;
+}
+
+button,
+button:before,
+button:focus {
+  outline: none;
+}
+
+input,
+input:before,
+input:focus {
+  outline: none;
+}
